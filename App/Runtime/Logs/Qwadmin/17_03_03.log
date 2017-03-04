@@ -1,0 +1,2291 @@
+[ 2017-03-03T16:54:29+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0004s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] file_get_contents(test.html): failed to open stream: No such file or directory /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 10 行.
+
+[ 2017-03-03T16:54:33+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] file_get_contents(test.html): failed to open stream: No such file or directory /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 10 行.
+
+[ 2017-03-03T16:57:24+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 103 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 108 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 118 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [8] Undefined variable: data /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2017-03-03T16:57:43+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : head in Entity, line: 22 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;body&gt; tag in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID lb already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_hw already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_py already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_cl already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [8] Undefined variable: data /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-03-03T16:57:44+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : head in Entity, line: 22 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;body&gt; tag in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID lb already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_hw already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_py already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_cl already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [8] Undefined variable: data /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2017-03-03T16:57:54+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : head in Entity, line: 22 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;body&gt; tag in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID lb already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_hw already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_py already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_cl already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [8] Undefined variable: data /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2017-03-03T16:58:00+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : head in Entity, line: 22 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;body&gt; tag in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID lb already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_hw already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_py already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_cl already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [8] Undefined variable: data /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-03-03T16:58:01+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : head in Entity, line: 22 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;body&gt; tag in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID lb already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_hw already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_py already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_cl already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [8] Undefined variable: data /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2017-03-03T16:58:54+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : head in Entity, line: 22 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;body&gt; tag in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID lb already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_hw already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_py already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID ime_cl already defined in Entity, line: 23 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2017-03-03T16:59:12+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): ID viewport already defined in Entity, line: 12 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 30 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 59 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 180 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 181 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 198 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 217 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 234 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 288 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 289 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 367 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 383 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 450 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 456 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 459 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-03-03T17:01:39+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): ID viewport already defined in Entity, line: 12 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 30 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 59 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 180 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 181 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 198 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 217 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 234 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 288 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 289 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 367 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 383 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 450 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 456 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 459 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+
+[ 2017-03-03T17:01:43+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): ID viewport already defined in Entity, line: 12 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 30 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 59 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 180 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 181 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 198 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 217 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 234 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 288 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 289 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 367 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 383 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 450 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 456 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 459 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+
+[ 2017-03-03T17:01:56+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): ID viewport already defined in Entity, line: 12 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 30 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 59 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 180 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 181 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 198 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 217 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 234 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 288 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 289 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 367 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 383 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 450 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 456 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 459 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2017-03-03T17:02:22+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): ID viewport already defined in Entity, line: 12 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 30 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 59 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 180 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 181 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 198 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 217 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 234 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 288 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 289 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 367 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 383 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 450 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 456 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 459 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2017-03-03T17:04:27+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): ID viewport already defined in Entity, line: 12 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 30 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 59 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 180 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 181 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 198 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 217 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 234 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 288 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 289 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 367 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 383 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 450 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 456 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 459 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2017-03-03T17:08:44+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] preg_match(): Unknown modifier '/' /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-03-03T17:08:46+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] preg_match(): Unknown modifier '/' /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-03-03T17:09:24+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] preg_match(): Unknown modifier '/' /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2017-03-03T17:10:50+08:00 ] 172.68.143.87 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-03-03T17:10:51+08:00 ] 172.68.143.87 /Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: current /www/web/qwadmin/App/Runtime/Cache/Qwadmin/3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-03-03T17:10:51+08:00 ] 172.68.143.87 /Qwadmin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-03-03T17:10:55+08:00 ] 172.68.143.87 /Qwadmin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`user` FROM `qw_member` WHERE `user` = 'admin' AND `password` = '66d6a1c8748025462128dc75bf5ae8d1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/LoginController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Common/function.php 第 12 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT `user` FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `qw_log` (`name`,`t`,`ip`,`log`) VALUES ('admin','1488532255','172.68.143.87','登录成功。') [ RunTime:0.0002s ]
+
+[ 2017-03-03T17:10:56+08:00 ] 172.68.143.87 /Qwadmin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Index/index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+SQL: select VERSION() as mysql [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0003s ]
+SQL: DELETE FROM `qw_log` WHERE ( t < 1483348255 ) [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_log` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qw_log` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.236522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.236582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-03-03T17:10:56+08:00 ] 172.68.143.87 /Qwadmin/weather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2017-03-03T17:11:02+08:00 ] 172.68.143.87 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] preg_match(): Unknown modifier '/' /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2017-03-03T17:12:13+08:00 ] 172.68.143.87 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-03-03T17:12:14+08:00 ] 172.68.143.87 /Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: current /www/web/qwadmin/App/Runtime/Cache/Qwadmin/3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-03-03T17:12:14+08:00 ] 172.68.143.87 /Qwadmin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-03-03T17:12:19+08:00 ] 172.68.143.87 /Qwadmin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`user` FROM `qw_member` WHERE `user` = 'admin' AND `password` = '66d6a1c8748025462128dc75bf5ae8d1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/LoginController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Common/function.php 第 12 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT `user` FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `qw_log` (`name`,`t`,`ip`,`log`) VALUES ('admin','1488532339','172.68.143.87','登录成功。') [ RunTime:0.0002s ]
+
+[ 2017-03-03T17:12:20+08:00 ] 172.68.143.87 /Qwadmin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Index/index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+SQL: select VERSION() as mysql [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0003s ]
+SQL: DELETE FROM `qw_log` WHERE ( t < 1483348340 ) [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_log` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qw_log` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.236114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.236195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-03-03T17:12:21+08:00 ] 172.68.143.87 /Qwadmin/weather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2017-03-03T17:12:26+08:00 ] 172.68.143.87 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] preg_match(): Unknown modifier '/' /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2017-03-03T17:13:37+08:00 ] 172.68.143.87 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] preg_match(): Unknown modifier '/' /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-03-03T17:13:55+08:00 ] 172.68.143.87 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] preg_match(): Unknown modifier '/' /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-03-03T17:15:31+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-03-03T17:15:41+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-03-03T17:15:41+08:00 ] 162.158.59.205 /Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: current /www/web/qwadmin/App/Runtime/Cache/Qwadmin/3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-03-03T17:15:43+08:00 ] 162.158.59.205 /Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: current /www/web/qwadmin/App/Runtime/Cache/Qwadmin/3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-03-03T17:15:45+08:00 ] 162.158.59.205 /Qwadmin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-03-03T17:15:46+08:00 ] 162.158.59.205 /Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: current /www/web/qwadmin/App/Runtime/Cache/Qwadmin/3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-03-03T17:15:46+08:00 ] 162.158.59.205 /Qwadmin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-03-03T17:15:55+08:00 ] 162.158.59.205 /Qwadmin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+
+[ 2017-03-03T17:15:58+08:00 ] 162.158.59.205 /Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: current /www/web/qwadmin/App/Runtime/Cache/Qwadmin/3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-03-03T17:15:58+08:00 ] 162.158.59.205 /Qwadmin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-03-03T17:16:02+08:00 ] 162.158.59.205 /Qwadmin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+
+[ 2017-03-03T17:16:05+08:00 ] 162.158.59.205 /Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: current /www/web/qwadmin/App/Runtime/Cache/Qwadmin/3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-03-03T17:16:12+08:00 ] 162.158.59.205 /Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: current /www/web/qwadmin/App/Runtime/Cache/Qwadmin/3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-03-03T17:16:13+08:00 ] 162.158.59.205 /Qwadmin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+
+[ 2017-03-03T17:16:17+08:00 ] 162.158.59.205 /Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: current /www/web/qwadmin/App/Runtime/Cache/Qwadmin/3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-03-03T17:16:18+08:00 ] 162.158.59.205 /Qwadmin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-03-03T17:16:55+08:00 ] 162.158.59.205 /Qwadmin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`user` FROM `qw_member` WHERE `user` = 'admin' AND `password` = '66d6a1c8748025462128dc75bf5ae8d1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/LoginController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Common/function.php 第 12 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0004s ]
+SQL: SELECT `user` FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `qw_log` (`name`,`t`,`ip`,`log`) VALUES ('admin','1488532615','162.158.59.205','登录成功。') [ RunTime:0.0001s ]
+
+[ 2017-03-03T17:16:56+08:00 ] 162.158.59.205 /Qwadmin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Index/index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+SQL: select VERSION() as mysql [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0003s ]
+SQL: DELETE FROM `qw_log` WHERE ( t < 1483348616 ) [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_log` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qw_log` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.248071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.248138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-03-03T17:17:03+08:00 ] 162.158.59.205 /Qwadmin/weather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2017-03-03T17:17:05+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] preg_match(): Unknown modifier '/' /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2017-03-03T17:18:40+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [8] Array to string conversion /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-03-03T17:18:54+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2017-03-03T17:19:38+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2017-03-03T17:28:38+08:00 ] 162.158.59.205 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2017-03-03T18:00:14+08:00 ] 162.158.58.180 /Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: current /www/web/qwadmin/App/Runtime/Cache/Qwadmin/3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-03-03T18:00:18+08:00 ] 162.158.58.180 /Qwadmin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-03-03T22:00:37+08:00 ] 162.158.59.13 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+
+[ 2017-03-03T22:00:40+08:00 ] 162.158.59.13 /Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: current /www/web/qwadmin/App/Runtime/Cache/Qwadmin/3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-03-03T22:00:42+08:00 ] 172.68.141.247 /Qwadmin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2017-03-03T22:00:51+08:00 ] 162.158.59.13 /Qwadmin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`user` FROM `qw_member` WHERE `user` = 'admin' AND `password` = '66d6a1c8748025462128dc75bf5ae8d1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/LoginController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Common/function.php 第 12 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT `user` FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `qw_log` (`name`,`t`,`ip`,`log`) VALUES ('admin','1488549651','162.158.59.13','登录成功。') [ RunTime:0.0002s ]
+
+[ 2017-03-03T22:00:54+08:00 ] 162.158.59.13 /Qwadmin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Index/index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+SQL: select VERSION() as mysql [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0003s ]
+SQL: DELETE FROM `qw_log` WHERE ( t < 1483365654 ) [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_log` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qw_log` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.241483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.241542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-03-03T22:01:03+08:00 ] 162.158.59.13 /Qwadmin/weather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather/index' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2017-03-03T22:01:28+08:00 ] 162.158.59.13 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/Weather1Controller.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-03-03T22:03:16+08:00 ] 162.158.59.13 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): ID viewport already defined in Entity, line: 12 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 30 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 59 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 181 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 198 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 217 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 234 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 288 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 289 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 367 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 383 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 450 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 456 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 459 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-03-03T22:04:54+08:00 ] 172.68.141.247 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-03-03T22:04:55+08:00 ] 172.68.141.247 /Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: current /www/web/qwadmin/App/Runtime/Cache/Qwadmin/3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2017-03-03T22:04:55+08:00 ] 172.68.141.247 /Qwadmin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-03-03T22:05:01+08:00 ] 172.68.141.247 /Qwadmin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+
+[ 2017-03-03T22:05:04+08:00 ] 172.68.141.247 /Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: current /www/web/qwadmin/App/Runtime/Cache/Qwadmin/3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-03-03T22:05:05+08:00 ] 172.68.141.247 /Qwadmin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-03-03T22:05:15+08:00 ] 172.68.141.247 /Qwadmin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+
+[ 2017-03-03T22:05:19+08:00 ] 172.68.141.247 /Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: current /www/web/qwadmin/App/Runtime/Cache/Qwadmin/3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-03-03T22:05:19+08:00 ] 172.68.141.247 /Qwadmin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-03-03T22:05:24+08:00 ] 172.68.141.247 /Qwadmin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`user` FROM `qw_member` WHERE `user` = 'admin' AND `password` = '66d6a1c8748025462128dc75bf5ae8d1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/LoginController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Common/function.php 第 12 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT `user` FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `qw_log` (`name`,`t`,`ip`,`log`) VALUES ('admin','1488549924','172.68.141.247','登录成功。') [ RunTime:0.0002s ]
+
+[ 2017-03-03T22:05:24+08:00 ] 172.68.141.247 /Qwadmin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Index/index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+SQL: select VERSION() as mysql [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0003s ]
+SQL: DELETE FROM `qw_log` WHERE ( t < 1483365924 ) [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_log` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qw_log` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.235884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.235991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-03-03T22:05:30+08:00 ] 172.68.141.247 /Qwadmin/weather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2017-03-03T22:05:31+08:00 ] 172.68.141.247 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): ID viewport already defined in Entity, line: 12 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 30 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 59 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 181 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 198 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 217 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 234 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 288 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 289 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 367 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 383 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 450 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 456 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 459 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-03-03T22:05:34+08:00 ] 172.68.141.247 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): ID viewport already defined in Entity, line: 12 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 30 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 59 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 181 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 198 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 217 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 234 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 288 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 289 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 367 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 383 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 450 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 456 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 459 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004088s ]
+
+[ 2017-03-03T22:07:18+08:00 ] 172.68.141.247 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0031s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): ID viewport already defined in Entity, line: 12 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 30 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 59 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 181 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 198 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 217 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 234 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 288 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 289 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 367 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 383 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 450 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 456 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 459 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2017-03-03T22:08:49+08:00 ] 172.68.141.247 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): ID viewport already defined in Entity, line: 12 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 30 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 59 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 181 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 198 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 217 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 234 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 288 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 289 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 367 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 383 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 450 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 456 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 459 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2017-03-03T22:47:48+08:00 ] 162.158.59.13 /Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: current /www/web/qwadmin/App/Runtime/Cache/Qwadmin/3ec037c4eac547117970073708a020a7.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-03-03T22:47:53+08:00 ] 162.158.59.13 /Qwadmin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-03-03T22:48:08+08:00 ] 162.158.59.13 /Qwadmin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`user` FROM `qw_member` WHERE `user` = 'admin' AND `password` = '66d6a1c8748025462128dc75bf5ae8d1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/LoginController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Common/function.php 第 12 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT `user` FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `qw_log` (`name`,`t`,`ip`,`log`) VALUES ('admin','1488552488','162.158.59.13','登录成功。') [ RunTime:0.0002s ]
+
+[ 2017-03-03T22:48:11+08:00 ] 162.158.59.13 /Qwadmin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Index/index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+SQL: select VERSION() as mysql [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_log` [ RunTime:0.0003s ]
+SQL: DELETE FROM `qw_log` WHERE ( t < 1483368491 ) [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_log` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qw_log` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.247987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.248057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-03-03T22:48:58+08:00 ] 162.158.59.13 /Qwadmin/weather1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather1/index' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+NOTIC: [2] DOMDocument::loadHTML(): ID viewport already defined in Entity, line: 12 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 30 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 59 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 64 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 181 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 198 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 217 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 234 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 288 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 289 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 367 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 383 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 450 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 454 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 456 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 459 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 472 /www/web/qwadmin/ThinkPHP/Library/Vendor/phpQuery/phpQuery.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-03-03T23:00:30+08:00 ] 162.158.59.13 /Qwadmin/weather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Weather/index' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 /www/web/qwadmin/App/Qwadmin/Controller/ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1   ) ORDER BY o ASC  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
